@@ -1,0 +1,27 @@
+.btn-checkout {
+    background-color: #e8491d !important;
+    border-color: #e8491d !important;
+    text-transform: uppercase;
+    color: #ffffff !important;
+    font-size: 14px !important;
+}
+
+.coupon {
+    text-align: center;
+    margin: 15px 10px;
+
+    input {
+        width: 180px;
+        outline: none;
+
+        &:focus {
+            border: 0.5px solid #e8491d !important;
+        }  
+    }
+
+    .btn-secondary {
+        font-size: 13px;
+        padding: 4px;
+        margin-bottom: 4px;
+    }
+}
